@@ -1,2 +1,2 @@
 # TrailFlowBookmarks
-Repo for importing and exporting TrailFlow bookmarks in Tenable Identity Exposure
+Script for importing and exporting TrailFlow bookmarks in Tenable Identity Exposure
