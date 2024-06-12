@@ -11,4 +11,4 @@ Imports TrailFlow bookmarks to Tenable Identity Exposure (formerly tenable.ad).
 Imports custom dashboards into Tenable Identity Exposure (formerly tenable.ad).
 
 .USAGE
-Just run the script and input the server name (*.tenable.ad) and your apiKey.
+  -  Just run the script and input the server name (*.tenable.ad) and your apiKey.
