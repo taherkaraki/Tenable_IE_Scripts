@@ -1,0 +1,2691 @@
+{
+  "id": 223,
+  "name": "ACSC Compliance",
+  "order": 6,
+  "widget": {
+    "value": [
+      {
+        "id": 2601,
+        "posX": 4,
+        "posY": 4,
+        "height": 2,
+        "width": 4,
+        "title": "Kerberoasting - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  7
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Privileged accounts running kerberos services"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2602,
+        "posX": 4,
+        "posY": 6,
+        "height": 2,
+        "width": 4,
+        "title": "ASRepRoast - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  22
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Kerberos configuration on user accounts"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2605,
+        "posX": 2,
+        "posY": 8,
+        "height": 2,
+        "width": 2,
+        "title": "Password spraying - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  37,
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2606,
+        "posX": 4,
+        "posY": 8,
+        "height": 2,
+        "width": 4,
+        "title": "Password Spraying - Remediation trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": " Detection of password weaknesses"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  37
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "accounts with empty password"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2608,
+        "posX": 0,
+        "posY": 34,
+        "height": 2,
+        "width": 2,
+        "title": "SkeletonKey - violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8,
+                  28,
+                  30
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2609,
+        "posX": 4,
+        "posY": 34,
+        "height": 2,
+        "width": 4,
+        "title": "SkeletonKey - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  30
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "DCs managed by illegitimate users"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Native admin group members"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  28
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "sensitive GPO permissions"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2611,
+        "posX": 0,
+        "posY": 10,
+        "height": 2,
+        "width": 2,
+        "title": "MachineAccountQuota - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  36
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2612,
+        "posX": 4,
+        "posY": 10,
+        "height": 2,
+        "width": 4,
+        "title": "MachineAccountQuota - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  36
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Users allowed to join computers"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2613,
+        "posX": 0,
+        "posY": 4,
+        "height": 2,
+        "width": 2,
+        "title": "Kerberoasting - Voilations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  7
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2614,
+        "posX": 0,
+        "posY": 6,
+        "height": 2,
+        "width": 2,
+        "title": "ASRepRoast - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  22
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2615,
+        "posX": 4,
+        "posY": 2,
+        "height": 2,
+        "width": 4,
+        "title": "ACSC Global Compliance - by technique",
+        "options": {
+          "type": "BarChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Kerberoasting"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  22
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "ASrepRoasting"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  22
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "SkeletonKey"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  37,
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Password spraying"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  36
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "MachineAccountQuota"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  13
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Unconstrained Delegation"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  11
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Passwords found in GPO"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "ADCS Compromise"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Golden Certificate"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  21
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "DCSync"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Dumping ntds.dit"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8,
+                  9
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Golden Ticket"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Silver Ticket"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  32,
+                  35
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "EntraConnect Compromise"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  4
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "1-way domain trust bypas"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  17
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "SidHistory Compromise"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2616,
+        "posX": 2,
+        "posY": 4,
+        "height": 2,
+        "width": 2,
+        "title": "Kerberoasting - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2617,
+        "posX": 2,
+        "posY": 6,
+        "height": 2,
+        "width": 2,
+        "title": "ASrepRoast - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  22
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2618,
+        "posX": 4,
+        "posY": 0,
+        "height": 2,
+        "width": 4,
+        "title": "ACSC Global Compliance - by domain",
+        "options": {
+          "type": "BarChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "*All Domains*"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  7
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Harajli.local"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  9
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Koujan.local"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "May.local"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  2
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "tcorp.local"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  1
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "alsid.corp"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "TGN_Domain"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  22,
+                  50,
+                  4,
+                  8,
+                  9,
+                  11,
+                  13,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48
+                ],
+                "directoryIds": [
+                  4
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "ABMJ.local"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2619,
+        "posX": 2,
+        "posY": 34,
+        "height": 2,
+        "width": 2,
+        "title": "SkeletonKey - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8,
+                  28,
+                  30
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2620,
+        "posX": 0,
+        "posY": 8,
+        "height": 2,
+        "width": 2,
+        "title": "Password Spraying - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  37,
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2621,
+        "posX": 2,
+        "posY": 10,
+        "height": 2,
+        "width": 2,
+        "title": "MachineAccountQuota - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  36
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2622,
+        "posX": 0,
+        "posY": 12,
+        "height": 2,
+        "width": 2,
+        "title": "Unconstrained Delegation - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  13
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2623,
+        "posX": 2,
+        "posY": 12,
+        "height": 2,
+        "width": 2,
+        "title": "Unconstrained Delegations - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  13
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2624,
+        "posX": 4,
+        "posY": 12,
+        "height": 2,
+        "width": 4,
+        "title": "Unconstrained Delegations - Remediation trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  13
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Dangerous Kerberos Delegations"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2626,
+        "posX": 0,
+        "posY": 14,
+        "height": 2,
+        "width": 2,
+        "title": "Passwords found in GPO - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  11
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2627,
+        "posX": 2,
+        "posY": 14,
+        "height": 2,
+        "width": 2,
+        "title": "Passwords found in GPO - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  11
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2628,
+        "posX": 4,
+        "posY": 14,
+        "height": 2,
+        "width": 4,
+        "title": "Passwords found in GPO - Remediation trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  11
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Reversible passwords in GPO"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2629,
+        "posX": 0,
+        "posY": 16,
+        "height": 2,
+        "width": 2,
+        "title": "ADCS Compromise - violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "ADCS Dangerous Misconfigurations"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2630,
+        "posX": 2,
+        "posY": 16,
+        "height": 2,
+        "width": 2,
+        "title": "ADCS Compromise - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2631,
+        "posX": 4,
+        "posY": 16,
+        "height": 2,
+        "width": 4,
+        "title": "ADCS Compromise - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "ADCS Dangerous Misconfigurations"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2632,
+        "posX": 0,
+        "posY": 18,
+        "height": 2,
+        "width": 2,
+        "title": "Golden Certificate - violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2633,
+        "posX": 2,
+        "posY": 18,
+        "height": 2,
+        "width": 2,
+        "title": "Golden Certificate - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2634,
+        "posX": 4,
+        "posY": 18,
+        "height": 2,
+        "width": 4,
+        "title": "Golden Certificate - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  48
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "ADCS Dangerous Misconfigurations"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2635,
+        "posX": 0,
+        "posY": 20,
+        "height": 2,
+        "width": 2,
+        "title": "DCSync - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  21
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2636,
+        "posX": 2,
+        "posY": 20,
+        "height": 2,
+        "width": 2,
+        "title": "DCSync - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  21
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2637,
+        "posX": 4,
+        "posY": 20,
+        "height": 2,
+        "width": 4,
+        "title": "DCSync - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  21
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Root permissions allowing DCSync-like attacks"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2638,
+        "posX": 0,
+        "posY": 22,
+        "height": 2,
+        "width": 2,
+        "title": "Dumping ntds.dit - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2639,
+        "posX": 2,
+        "posY": 22,
+        "height": 2,
+        "width": 2,
+        "title": "Dumping ntds.dit - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2640,
+        "posX": 4,
+        "posY": 22,
+        "height": 2,
+        "width": 4,
+        "title": "Dumping ntds.dit - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Native Administrative Group Members"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2641,
+        "posX": 0,
+        "posY": 24,
+        "height": 2,
+        "width": 2,
+        "title": "Golden Ticket - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8,
+                  9
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2642,
+        "posX": 2,
+        "posY": 24,
+        "height": 2,
+        "width": 2,
+        "title": "Golden Ticket - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8,
+                  9
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2643,
+        "posX": 4,
+        "posY": 24,
+        "height": 2,
+        "width": 4,
+        "title": "Golden Ticket - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Native Administrative Group Members"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  9
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Last password change on KRBTGT account"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2644,
+        "posX": 0,
+        "posY": 26,
+        "height": 2,
+        "width": 2,
+        "title": "Silver Ticket - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2645,
+        "posX": 2,
+        "posY": 26,
+        "height": 2,
+        "width": 2,
+        "title": "Silver Ticket - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2646,
+        "posX": 4,
+        "posY": 26,
+        "height": 2,
+        "width": 4,
+        "title": "Silver Ticket - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  8
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Native Administrative Group Members"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2647,
+        "posX": 0,
+        "posY": 28,
+        "height": 2,
+        "width": 2,
+        "title": "EntraConnect Compromise - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  32,
+                  35
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2648,
+        "posX": 2,
+        "posY": 28,
+        "height": 2,
+        "width": 2,
+        "title": "EntraConnect Compromise - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  32,
+                  35
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2649,
+        "posX": 4,
+        "posY": 28,
+        "height": 2,
+        "width": 4,
+        "title": "EntraConnect Compromise - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  32
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Verify Permissions Related to EntraConnect Account"
+              }
+            },
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  35
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Last Change of the Entra SSO Account Password"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2650,
+        "posX": 0,
+        "posY": 30,
+        "height": 2,
+        "width": 2,
+        "title": "1-way domain trust bypass - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  4
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2651,
+        "posX": 2,
+        "posY": 30,
+        "height": 2,
+        "width": 2,
+        "title": "1-way domain trust bypass - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  4
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2652,
+        "posX": 4,
+        "posY": 30,
+        "height": 2,
+        "width": 4,
+        "title": "1-way domain trust bypass - Remediation trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  4
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Dangerous Trust Relationships"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2653,
+        "posX": 0,
+        "posY": 32,
+        "height": 2,
+        "width": 2,
+        "title": "SidHistory Compromise - Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  17
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2654,
+        "posX": 2,
+        "posY": 32,
+        "height": 2,
+        "width": 2,
+        "title": "SidHistory Compromise - Compliance",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  17
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2655,
+        "posX": 4,
+        "posY": 32,
+        "height": 2,
+        "width": 4,
+        "title": "SidHistory Compromise - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  17
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Accounts With a Dangerous SID History Attribute"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2656,
+        "posX": 0,
+        "posY": 0,
+        "height": 2,
+        "width": 2,
+        "title": "ACSC Compliance Score",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "ComplianceScore",
+                "checkerIds": [
+                  7,
+                  13,
+                  22,
+                  4,
+                  8,
+                  9,
+                  11,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48,
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2657,
+        "posX": 2,
+        "posY": 0,
+        "height": 2,
+        "width": 2,
+        "title": "ACSC Violations",
+        "options": {
+          "type": "BigNumber",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  7,
+                  13,
+                  22,
+                  8,
+                  21,
+                  28,
+                  30,
+                  32,
+                  48,
+                  4,
+                  9,
+                  17,
+                  35,
+                  37,
+                  50,
+                  11,
+                  36
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 1296000
+              },
+              "displayOptions": {
+                "label": "Serie-1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2658,
+        "posX": 0,
+        "posY": 2,
+        "height": 2,
+        "width": 4,
+        "title": "ACSC Violations - Remediation Trends",
+        "options": {
+          "type": "LineChart",
+          "series": [
+            {
+              "dataOptions": {
+                "type": "Deviance",
+                "checkerIds": [
+                  7,
+                  13,
+                  22,
+                  4,
+                  8,
+                  9,
+                  11,
+                  17,
+                  21,
+                  28,
+                  30,
+                  32,
+                  35,
+                  36,
+                  37,
+                  48,
+                  50
+                ],
+                "directoryIds": [
+                  4,
+                  7,
+                  9,
+                  3,
+                  2,
+                  1,
+                  8
+                ],
+                "reasonIds": [],
+                "profileId": 1,
+                "duration": 31536000
+              },
+              "displayOptions": {
+                "label": "Violations"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
