@@ -971,7 +971,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "Harajli.local"
+                "label": "Domain 1"
               }
             },
             {
@@ -1004,7 +1004,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "Koujan.local"
+                "label": "Domain 2"
               }
             },
             {
@@ -1043,7 +1043,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "May.local"
+                "label": "Domain 3"
               }
             },
             {
@@ -1076,7 +1076,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "tcorp.local"
+                "label": "Domain 4"
               }
             },
             {
@@ -1109,7 +1109,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "alsid.corp"
+                "label": "Domain 5"
               }
             },
             {
@@ -1142,7 +1142,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "TGN_Domain"
+                "label": "Domain 6"
               }
             },
             {
@@ -1175,7 +1175,7 @@
                 "duration": 1296000
               },
               "displayOptions": {
-                "label": "ABMJ.local"
+                "label": "Domain 7"
               }
             }
           ]
